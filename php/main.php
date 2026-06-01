@@ -20,7 +20,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return  string                  The path to the file  
  */
 function readPdf($filePath, $destination, $keepName=true, $type='csv'){
-    require_once( PLUGINPATH  . 'lib/vendor/autoload.php');
 
     if($keepName || $destination == 'download'){
 
